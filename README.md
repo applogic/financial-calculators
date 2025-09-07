@@ -1,6 +1,6 @@
 # @archerjessop/financial-calculations
 
-Comprehensive financial calculation utilities for real estate and business applications.
+Comprehensive financial calculation utilities for real estate and business applications. Now
 
 ## Installation
 
