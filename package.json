@@ -1,0 +1,39 @@
+{
+  "name": "@testguest/financial-calculations",
+  "version": "1.0.0",
+  "description": "Comprehensive financial calculation utilities for real estate and business applications",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "financial",
+    "calculations",
+    "real-estate",
+    "business",
+    "PMT",
+    "COCR",
+    "mortgage",
+    "cash-flow"
+  ],
+  "author": "Archer Jessop",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/archerjessop/financial-calculations.git"
+  }
+}
