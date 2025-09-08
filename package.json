@@ -1,6 +1,6 @@
 {
   "name": "@archerjessop/financial-calculations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comprehensive financial calculation utilities for real estate and business applications",
   "publishConfig": {
     "access": "public"
