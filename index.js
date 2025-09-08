@@ -3,7 +3,7 @@
  */
 
 // Core utilities
-const { formatCurrency, formatPercentage, formatNumber } = require('./lib/core/formatting');
+const { formatCurrency, formatPercentage, formatNumber, formatPriceValue } = require('./lib/core/formatting');
 const { calculatePMT, calculateRemainingBalance, calculateInterestOverTime } = require('./lib/core/loan-calculations');
 
 // Real estate calculations
@@ -20,8 +20,9 @@ const { calculateCompoundGrowth, calculatePresentValue, calculateNPV } = require
 module.exports = {
   // Core
   formatCurrency,
-  formatPercentage,
   formatNumber,
+  formatPercentage,
+  formatPriceValue,
   calculatePMT,
   calculateRemainingBalance,
   calculateInterestOverTime,
